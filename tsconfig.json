@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Versão do ECMAScript de saída
+    "module": "commonjs", // Sistema de módulos
+    "rootDir": "./src", // Diretório raiz dos arquivos .ts
+    "outDir": "./dist", // Diretório de saída para os arquivos .js compilados
+    "esModuleInterop": true, // Permite interoperabilidade com módulos CommonJS
+    "forceConsistentCasingInFileNames": true, // Garante consistência no case dos nomes de arquivos
+    "strict": true, // Habilita todas as checagens estritas de tipo
+    "skipLibCheck": true, // Pula a checagem de tipos de arquivos de declaração
+    "resolveJsonModule": true, // Permite importar arquivos .json
+    "experimentalDecorators": true, // Se for usar decorators
+    "emitDecoratorMetadata": true // Se for usar decorators com metadados
+  },
+  "include": ["src/**/*.ts"], // Arquivos a serem incluídos na compilação
+  "exclude": ["node_modules"] // Pastas a serem excluídas
+}

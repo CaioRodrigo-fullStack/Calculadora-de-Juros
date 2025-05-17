@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.18",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "name": "calculadora-de-juros-compostos-e-simples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioRodrigo-fullStack/Calculadora-de-Juros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioRodrigo-fullStack/Calculadora-de-Juros/issues"
+  },
+  "homepage": "https://github.com/CaioRodrigo-fullStack/Calculadora-de-Juros#readme",
+  "description": ""
+}
