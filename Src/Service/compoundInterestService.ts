@@ -1,7 +1,7 @@
 import { ICompoutInterstParms, IInterestResult } from '../Interface/Iinterest';
 
 export class CompoundInterestService {
-  cauculate(params: ICompoutInterstParms): IInterestResult {
+  calculate(params: ICompoutInterstParms): IInterestResult {
     const { principal, rate, time, compoundingFrequence = 1 } = params; //Padrão para anual se não for fornecido
 
     if (principal < 0 || rate < 0 || time < 0 || compoundingFrequence <= 0) {
