@@ -7,11 +7,11 @@ export class SimpleInterestService {
       throw new Error('Principal, taxa e tempo não podem ser negativos');
     }
     const interest = principal * rate * time;
-    const totalAmont = principal + interest;
+    const totalAmount = principal + interest;
 
     return {
       interest,
-      totalAmont,
+      totalAmount,
       calculationType: 'simple',
       parameters: params,
     };

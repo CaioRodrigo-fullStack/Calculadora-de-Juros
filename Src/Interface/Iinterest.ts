@@ -5,12 +5,12 @@ export interface ISimpleIeterestParms {
 }
 
 export interface ICompoutInterstParms extends ISimpleIeterestParms {
-  compoutndigFrequency?: number; // Número de vezes que o juro é capitalizado por período de tempo (opcional, padrão anual)
+  compoundingFrequence?: number; // Número de vezes que o juro é capitalizado por período de tempo (opcional, padrão anual)
 }
 
 export interface IInterestResult {
   interest: number; //juros calculado
-  totalAmont: number; // montante te final (Capital + juros)
+  totalAmount: number; // montante te final (Capital + juros)
   calculationType: 'simple' | 'compound';
   parameters: ISimpleIeterestParms | ICompoutInterstParms;
 }
