@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { InterestController } from '../controller/interestController';
+import { InterestController } from '../Controller/interestController';
 
 const router = Router();
 const interestController = new InterestController();
